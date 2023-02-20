@@ -24,7 +24,6 @@ services:
           - glpi-volume-plugins:/var/www/html/plugins:rw
           - glpi-volume-config:/var/www/html/config:rw
         environment: 
-          GLPI_LANG: pt_BR
           MARIADB_HOST: mariadb-glpi
           MARIADB_PORT: 3306
           MARIADB_DATABASE: glpi
